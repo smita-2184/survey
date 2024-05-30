@@ -33,7 +33,7 @@ def get_random_link(links, link_counts):
 def update_link_counts(link, link_counts):
     link_counts[link] += 1
 
-with st.popover("Contact us in case you need any support 📧"):
+with st.popover("Contact us📧"):
     st.markdown("Email us @ studium-eduai@gmail.com")
 survey = st.button("Start Survey")
 if survey:
