@@ -48,7 +48,7 @@ if survey:
         # Update usage count after assigning the link
         update_link_counts(assigned_link, link_counts)
         st.write("Start your survey here using this link:", assigned_link)
-        components.iframe(assigned_link, height=900)
+        components.iframe(assigned_link, height=800)
         
     else:
         st.write("No surveys available (all links used 10 times)")
