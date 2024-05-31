@@ -52,5 +52,5 @@ if survey:
         components.iframe(assigned_link, height=700)
         
     else:
-        st.write("Something went wrong 🥴 please click on "Start Survey" again")
+        st.write("Something went wrong 🥴 please click on Start Survey again")
         
