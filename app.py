@@ -32,8 +32,7 @@ def get_random_link(links, link_counts):
 # Function to update link usage counts
 def update_link_counts(link, link_counts):
     link_counts[link] += 1
-with st.sidebar:
-    st.write("Hello")
+
 with st.popover("Contact us📧"):
     st.markdown("Email us @ studium-eduai@gmail.com")
 survey = st.button("Start Survey")
